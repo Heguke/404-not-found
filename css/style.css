@@ -133,7 +133,7 @@ footer p a:hover {
     margin-top: 0;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1030px) {
   .container h1 {
     top: 20px;
     left: 30px;
