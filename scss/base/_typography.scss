@@ -1,0 +1,16 @@
+h1 {
+    @include title;
+}
+
+p {
+    @include paragraph;
+}
+
+footer {
+    p {
+        @include paragraph2;
+        a {
+            @include link;
+        }
+    }
+}

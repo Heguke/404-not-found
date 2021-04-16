@@ -1,0 +1,33 @@
+@mixin title {
+    font-family: $inconsolata;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    @content;
+}
+
+@mixin paragraph {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 5rem 0;
+    @content;
+}
+
+@mixin paragraph2 {
+    font-family: $montserrat;
+    font-weight: 500;
+    font-size: 0.87rem;
+    color: $tertiary-color;
+    @content;
+}
+
+@mixin link {
+    text-decoration: none;
+    transition: 0.3s ease all;
+    color: $special-color;
+    @content;
+    &:hover {
+        text-decoration: underline;
+        @content;
+    }
+}
